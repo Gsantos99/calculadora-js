@@ -33,6 +33,7 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+  animation: fromBottom 0.7s 0.2s backwards;
 }
 
 .btn:hover {
@@ -45,6 +46,7 @@ h1 {
 
 .calculadora {
   width: 100%;
+ 
 }
 
 .display {
@@ -81,7 +83,28 @@ h1 {
 
 
 img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all .3s;
+  animation: fromBottom 0.7s 0.2s backwards;
+}
+
+img:hover {
+  transform:scale(1.25);
+}
+
+@keyframes fromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 }
 
