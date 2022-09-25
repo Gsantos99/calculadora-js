@@ -81,6 +81,10 @@ h1 {
   gap:20px;
 }
 
+.desativar-zoom-phone {
+  touch-action: manipulation;
+}
+
 
 img {
   width: 60px;
