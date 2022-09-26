@@ -1,7 +1,6 @@
 const telaCalc = document.querySelector('.display')
 const calcCorpo = document.querySelector('.calculadora')
 
-
 function calculadora() {
   mostraDisplay()
   limpaTela()

@@ -10,6 +10,7 @@
     rgba(2, 168, 226, 1) 100%
   );
   --primary-color-darker: rgb(9, 48, 56);
+  --second-color: #fff;
 }
 
 * {
@@ -46,7 +47,6 @@ h1 {
 
 .calculadora {
   width: 100%;
- 
 }
 
 .display {
@@ -73,30 +73,29 @@ h1 {
   color: lightcoral;
 }
 
-.contato  {
+.contato {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap:20px;
+  gap: 20px;
 }
 
 .desativar-zoom-phone {
   touch-action: manipulation;
 }
 
-
 img {
   width: 60px;
   height: auto;
   background-color: #fff;
   border-radius: 10px;
-  transition: all .3s;
+  transition: all 0.3s;
   animation: fromBottom 0.7s 0.2s backwards;
 }
 
 img:hover {
-  transform:scale(1.25);
+  transform: scale(1.25);
 }
 
 @keyframes fromBottom {
@@ -109,6 +108,4 @@ img:hover {
     opacity: 1;
     transform: translateY(0);
   }
-
 }
-
