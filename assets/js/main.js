@@ -8,6 +8,8 @@ function calculadora() {
   realizaConta()
   enterPress()
 
+  
+
   function realizaConta() {
     calcCorpo.addEventListener('click', e => {
       const elemento = e.target
